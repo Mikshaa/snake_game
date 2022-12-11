@@ -2,6 +2,7 @@ import time as tm
 import random
 import turtle as t
 
+print('test')
 
 class Snake:
     
