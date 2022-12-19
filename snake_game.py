@@ -2,7 +2,6 @@ import snake_class as scl
 import time as tm
 check = False
 pole = scl.Field()
-#pole.play()
 snake = [scl.Snake('black', 'white', 'turtle', i*30, i*50, 5) for i in range(1)]
 food = scl.Food('green', 'circle')
 food.food_pos()

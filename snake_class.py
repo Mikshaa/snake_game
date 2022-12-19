@@ -2,8 +2,7 @@ import time as tm
 import random
 import turtle as t
 
-print('test')
-
+print(1)
 class Snake:
     
     def __init__(self, color, color_hd, shape, x, y, long):
@@ -121,22 +120,6 @@ class Field:
         end_text.penup()
         end_text.goto(-100,200)
         end_text.write('Game Over', font=('Arial', 40))
-        
-"""  
-    def play(self):
-        self.food.food_pos()
-        while self.snake.dtp():
-            
-            self.snake.move()
-            if self.snake.snake[0].distance(self.food.food)<20:
-                self.food.food_pos()
-                self.snake.more('black', 'turtle')
-            self.ts.update()
-            tm.sleep(0.2)
-        else:
-            print('lose')
-
-        """
         
 
 
